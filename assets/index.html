@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Prework Study Guide</title>
   </head>
 
   <body>
     <header id="top">
-      <h1>Prework Study Guide</h1>
+      <h1 class="box">Prework Study Guide</h1>
       <img src="bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
 
@@ -26,7 +27,12 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>There are three ways to style a webpage using CSS. You can style it using inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
+          <li>Seperation of Concerns is a widely used term in web development and refers to separating code into different files based on use. It is one of the key design principles that we practice in the boot camp. Separation of concerns is based on the idea that each section of code should have its own responsibility.</li>
+           <li>Using (*) as a selector is a special wild card symbol that applies changes/rules to all the elements visible on the page.</li>
+           <li>You can combine two selectors into a single CSS rule with a comma, allowing the declarations to affect both selectors. This helps us write Do Not Repeat Yourself (DRY) code.</li>
+           <li>A margin indicates how much space we want around the outside of an element.</li>
+           <li>A padding indicates how much space we want around the content inside an element.</li>
         </ul>
       </section>
 
@@ -41,6 +47,11 @@
           <li>git checkout branch-name will move you to that branch.</li>
           <li>git checkout -b feature/branch-name will create a new branch.</li>
           <li>git status will let you know what branch you are currently in (always good to double check).</li>
+          <li>git add -A once on the branch you want use this in your command line to stage your changes. (Beginning of workflow.)</li>
+          <li>git commit -m "added code to HTML file", will commit your staged changes to your repository (-m associates a message with our commit. Messages should be short descriptive messages of the changes implemented.) Once completed, our git repository is now up to date with our working directory.</li>
+          <li>git pull origin main, will sync our local branch with the remote branch in GitHub. This is very important in a team enviornment in case a team member has added a new feature to the project. Use this command to pull in the base branch. You should see (Already up to date) upon completing these steps.</li>
+          <li>git push origin feature/branch-name, will push all of our changes. Now go to GitHub and execute pull request. (Remember to check the branches your are merging.)</li>
+          <li>git checkout main & then use git pull origin main, to update our local repository with the new  merged-in feature. (After this you can clear out the GitHub issue.) (End of workflow).</li>
         </ul>
       </section>
 
